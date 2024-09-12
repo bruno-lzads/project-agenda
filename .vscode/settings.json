@@ -1,0 +1,42 @@
+{
+    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    // "editor.rulers": [100, 120],
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "php.validate.executablePath": "",
+    "explorer.compactFolders": false,
+    "code-runner.runInTerminal": true,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.executorMap": {
+        "python": "cls ; python -u",
+    },
+    "code-runner.ignoreSelection": true,
+    "editor.fontLigatures": false,
+    "python.defaultInterpreterPath": "python",
+    "[python]": {
+        "editor.formatOnType": true,
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "git.autofetch": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "launch": {
+        "configurations": [
+
+        ]
+    },
+    "window.zoomLevel": 1,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "editor.fontSize": 16,
+    "workbench.iconTheme": "material-icon-theme"
+}
