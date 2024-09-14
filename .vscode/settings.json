@@ -38,5 +38,17 @@
         "editor.defaultFormatter": "vscode.typescript-language-features"
     },
     "editor.fontSize": 16,
-    "workbench.iconTheme": "material-icon-theme"
+    "workbench.iconTheme": "material-icon-theme",
+    "version": "0.2.0",
+    "configurations": [
+        {
+        "name": "Extension",
+        "type": "extensionHost",
+        "request": "launch",
+        "runtimeExecutable": "${execPath}",
+        "args": [
+            "--extensionDevelopmentPath=${workspaceFolder}"
+        ]
+        }
+    ]
 }

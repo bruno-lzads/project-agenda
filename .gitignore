@@ -4,6 +4,7 @@
 *.pyc
 __pycache__
 db.sqlite3
+README_DJANGO.md
 
 
 # Backup files # 
