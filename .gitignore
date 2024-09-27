@@ -7,6 +7,7 @@ db.sqlite3
 README_DJANGO.md
 static/
 media/
+project/local_settings.py 
 
 
 # Backup files # 

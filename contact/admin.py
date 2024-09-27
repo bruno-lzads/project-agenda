@@ -5,12 +5,12 @@ from contact import models
 
 @admin.register(models.Contact)
 class ContactAdmin(admin.ModelAdmin):
-    list_display = 'id', 'first_name', 'email', 'created_date', 'category',
+    list_display = 'id', 'first_name', 'email', 'created_date', 'category', 'show',
     ordering = '-id', #Ordena a lista
     search_fields = 'id', 'first_name', 'email',
     list_per_page = 10
     list_max_show_all = 15 #Lime de campos ao mostrar tudo
-    #list_editable = 'first_name', 'last_name' #edita o input
+    list_editable = 'show', #first_name', 'last_name' #edita o input
     list_display_links = 'id', 'first_name'
 
 @admin.register(models.Category)
