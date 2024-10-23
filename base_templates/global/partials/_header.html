@@ -21,13 +21,16 @@
     </nav>
 
     <div class="search">
-        <form action="" method="get">
+        <form 
+        action="{% url "contact:search" %}" 
+        method="GET">
             <input 
             class="search-input"
             type="search"
             name="q"
             id="search"
             placeholder="Search"
+            value="{{ request.GET.q.strip }}"
             >
         </form>
     </div>
